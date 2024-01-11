@@ -11,14 +11,14 @@ on:
 
 jobs:
   hello:
-    runs-on: ubantu-lastest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 
       - name: hello world
         run: echo "hello world"
         shell: bash
   goodbye:
-    runs-on: ubantu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: good bye
         run: echo "it is the end"
